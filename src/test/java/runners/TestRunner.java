@@ -6,7 +6,7 @@
 	
 	@RunWith(Cucumber.class)
 	@CucumberOptions(
-			plugin = {"pretty", "html:Reports/htmlReport.html",
+			plugin = {"pretty", "html:Reports/htmlReport.html", // generate reports
 			"json:Reports/jsonReport.json"},
 			features="./src/test/resources/features",
 			glue="step_definitions",
