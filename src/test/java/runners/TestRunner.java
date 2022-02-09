@@ -11,7 +11,7 @@
 			features="./src/test/resources/features",
 			glue="step_definitions",
 			dryRun=false,
-			tags="@SauceInvalidTests"
+			tags="@DemoQADatePicker"
 			)
 	public class TestRunner {
 	

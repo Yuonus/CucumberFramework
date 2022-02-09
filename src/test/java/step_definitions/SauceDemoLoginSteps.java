@@ -61,6 +61,7 @@ public class SauceDemoLoginSteps {
 	@Then("I should not be logged in")
 	public void i_should_not_be_logged_in() {
 		Assert.assertTrue(page.username.isDisplayed());
+//		  Assert.assertFalse(utils.isElementPresent(page.inventoryPageProductText));
 	}
 	
 	@Then("Error message should display {string}")
