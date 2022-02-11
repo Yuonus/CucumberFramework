@@ -11,7 +11,7 @@
 			features="./src/test/resources/features",
 			glue="step_definitions",
 			dryRun=false,
-			tags="@DemoQADatePicker"
+			tags="@SmokeTests"
 			)
 	public class TestRunner {
 	
