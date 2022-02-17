@@ -1,3 +1,4 @@
+@Regression
 Feature: Amazon Search
 					As a user I should be able to earch item
 					and the searched item should be relevant to the search

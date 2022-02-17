@@ -10,8 +10,8 @@
 			"json:Reports/jsonReport.json"},
 			features="./src/test/resources/features",
 			glue="step_definitions",
-			dryRun=false,
-			tags="@SmokeTests"
+			dryRun=true,
+			tags="@AddTrade"
 			)
 	public class TestRunner {
 	

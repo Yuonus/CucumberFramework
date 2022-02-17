@@ -16,7 +16,7 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@tag
+@Regression
 Feature: Amazon Login
 I want to be able to login with a valid credentials.
 I should not be logged in with invalid credentials.
